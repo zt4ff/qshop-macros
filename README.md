@@ -9,3 +9,5 @@
 
 - create a new folder and name it "QShop" via the button below
 ![create folder](./create-folder.png)
+
+- click on the new folder you created and 
