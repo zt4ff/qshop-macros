@@ -1,0 +1,70 @@
+{
+  "Name": "CreateStore",
+  "CreationDate": "2024-1-5",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://staging.qshop.tech/admin",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=store-switcher",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"__next\"]/div/div/div/aside/div/div/div[2]/div/div/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"__next\"]/div/div/div/aside/div/div/div[2]/div/div/div/button",
+        "xpath=//div[2]/div/div/div/button",
+        "css=#__next > div.main-wrapper.main-wrapper-responsive-lg > div > div > aside > div > div > div.navbar-vertical-content > div:nth-child(1) > div > div > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "prompt",
+      "Target": "Enter Store Name",
+      "Value": "storeName",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=storeName",
+      "Value": "${storeName}",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=/html/body/div[6]/div/div/div[2]/div/form/div[7]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div[6]/div/div/div[2]/div/form/div[7]/button",
+        "xpath=//button[@type='submit']",
+        "xpath=//div[7]/button",
+        "css=body > div.fade.modal.show > div > div > div.modal-body > div > form > div.m-3 > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"__next\"]/div/div/div/div/div/div[2]/div/div/div/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"__next\"]/div/div/div/div/div/div[2]/div/div/div/button",
+        "xpath=//div/div/button",
+        "css=#__next > div.main-content > div > div > div > div > div.row > div > div > div > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=bio",
+      "Value": "This is a random bio",
+      "Description": ""
+    }
+  ]
+}
