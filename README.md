@@ -21,3 +21,4 @@
 ## Notes
 - the macros can't run on an Incognito tab
 - the macros assumes you are logged in on an overview page with no modal showing when you load the page
+
