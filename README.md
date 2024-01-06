@@ -16,3 +16,8 @@
 ![play macros](./images/play-macros.png)
 
 - then you can run a macros - in our case, a single task, by clicling the `Play Macro` on the right as display in the image above 
+
+
+## Notes
+- the macros can't run on an Incognito tab
+- the macros assumes you are logged in on an overview page with no modal showing when you load the page
